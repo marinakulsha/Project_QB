@@ -9,7 +9,7 @@ exports.config = {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
     //seleniumAddress: 'http://hub-cloud.browserstack.com/wd/hub',
-    specs: ['features/FeatureHome.feature'],
+    specs: ['features/Database_items.feature'],
 
     'capabilities': {
     //'browserstack.user': 'marina281',
@@ -18,7 +18,7 @@ exports.config = {
     'os_version': '10',
     'browserName': 'chrome',
     'browser_version': '61.0',
-    'resolution': '1024x768',
+    'resolution': '1920x1080',
     // 'browserName': 'safari',
     // 'device': 'iPhone 7 Plus',
     // 'realMobile': 'true',
@@ -56,7 +56,7 @@ exports.config = {
         {
             package: 'protractor-multiple-cucumber-html-reporter-plugin',
             options: {
-                reportName: 'Dynamo Website Report (mydynamo.co.uk)',
+                reportName: 'Quote Builder Report',
                 automaticallyGenerateReport: true,
                 removeExistingJsonReportFile: true,
                 removeOriginalJsonReportFile: true,
@@ -78,7 +78,7 @@ exports.config = {
 
 onPrepare: function () {
 browser.ignoreSynchronization = true;
-// browser.driver.manage().window().maximize();
+//browser.driver.manage().window().maximize();
 let chai = require('chai');
 chaiAsPromised = require('chai-as-promised');
 expect = chai.expect;

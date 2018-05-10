@@ -32,7 +32,7 @@ module.exports = function (grunt) {
                     args: {
                        seleniumAddress: 'http://localhost:4444/wd/hub',
                         //seleniumAddress:'http://hub-cloud.browserstack.com/wd/hub',
-                        baseUrl: 'http://mydynamo.co.uk/',
+                        baseUrl: 'https://qb-stage.aisnovations.com/',
                         // cucumberOpts: {
                         // tags: ['~@ignore', '<%= protractor.platformTag%>']
                         // }
@@ -64,7 +64,7 @@ module.exports = function (grunt) {
         //  process.env.BROWSER = grunt.option('browser') || 'chrome';
         //process.env.FEATURE = grunt.option('feature') || 'FeatureOne';
         target = target || 'dev';
-        grunt.task.run(['protractor:' + target])
+        grunt.task.run(['protractor_webdriver:start','protractor:' + target])
         //'protractor_webdriver:start','protractor:' + target
         //'protractor-cucumber-html-report:dev']);
     })

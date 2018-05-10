@@ -1,10 +1,5 @@
-let Home = require('./Home'),
-    FAQ = require('./FAQ'),
-    About = require('./About'),
-    Careers = require('./Careers'),
-    TermsConditions = require('./TermsConditions'),
-    Page404 = require ('./Page404');
-
+let Items = require('./Items');
+let Login = require('./Login');
 let PageFactory = function () {
 
     let _this = this;
@@ -14,12 +9,8 @@ let PageFactory = function () {
         page = page.toLowerCase()
 
         let pages = {
-            'home': Home,
-            'faq': FAQ,
-            'about': About,
-            'careers': Careers,
-            'terms': TermsConditions,
-            '404': Page404
+            'items': Items,
+            'login': Login           
         };
         if (!pages[page]) {
             throw new Error('Wrong page name: ' + page);
@@ -35,7 +26,6 @@ let mySingleton = {
             mySingleton.instance = new PageFactory();
         return mySingleton.instance
     }
-
 };
 module.exports = mySingleton.getInstance();
 

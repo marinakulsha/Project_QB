@@ -1,10 +1,5 @@
-let Page = function () {
-};
-
-Page.prototype._root = element(by.css('body'));
-
+let Page = function () {};
 //Page.prototype.data = {};
-
 //Page.prototype.url = '';
 
 Page.prototype.goToPage = function () {
@@ -29,10 +24,10 @@ Page.prototype.waitReady = function (name) {
                         }
                         return arr.length > 0;
                     })
-            }, 5000)
+            }, 40000)
         })
         .then(function () {
-            return browser.wait(EC.visibilityOf(elem), 20000);
+            return browser.wait(EC.visibilityOf(elem), 40000);
         })
         .then(() => {
             return elem.isDisplayed();
@@ -42,10 +37,10 @@ Page.prototype.waitReady = function (name) {
         });
 };
 
-
 Page.prototype.clickButton = function (name) {
     return this.waitReady(name)
         .then((elem) => {
+            browser.driver.sleep(3500)
             return elem.click();
         })
 };
@@ -68,46 +63,58 @@ Page.prototype.inputValue = function (name, text) {
             return input.clear()
         })
         .then(() => {
+            browser.driver.sleep(100)
             return input.sendKeys(text)
         });
 };
 
 Page.prototype.pressButton = function (name) {
+   
     return this.waitReady(name)
         .then((elem) => {
+      
+           browser.driver.sleep(5000)
             return elem.sendKeys(protractor.Key[name])
+        })
+        .then(() => {
+            return browser.driver.sleep(400)
+       });
+};
+
+Page.prototype.goToFrame = function (name) {
+    return this.waitReady(name)
+        .then((elem) => {
+           return driver.switchTo().frame(elem);
+            
         })
 };
 
-Page.prototype.scrollIntoView = function (name, alignToTop) {
-    let self = this;
-
-    alignToTop = alignToTop !== undefined ? alignToTop : true;
-   // console.log('scrol2');
-    return browser.executeScript('arguments[0].scrollIntoView(arguments[1]);', self.data[name].selector, alignToTop)
-        .then(function () {
-            //console.log('scrol3');
-             self.waitReady(name);
-           // console.log('scrol4')
-        });
-};
 
 Page.prototype.scrolltoElement = function (name) {
-    //console.log('scroll1111');
     return this.waitReady(name)
         .then((elem) => {
-           // console.log('one');
-            return browser.driver.executeScript("arguments[0].scrollIntoView(false);", elem.getWebElement());
-
+            return browser.driver.executeScript("arguments[0].scrollIntoView();", elem.getWebElement());
+           
         });
 };
 
-//scrollTo(0,2600)
+Page.prototype.selectDropdownElement = function(oneoption, alloptions) {
+    let select = this.data[alloptions].selector;
+    let option = this.data[oneoption].selector;
+    let optionname = this.data[oneoption].elName;
+        return select.all(option).filter(function (opt) {
+            return opt.getText()
+                .then(function (text) {
+                    return text === optionname;
+                });
+        }).first().click()
+};
 
 Page.prototype.elementVisibility = function (name) {
     let elText = this.data[name].elText;
     return this.waitReady(name)
         .then(function (elem) {
+            browser.driver.sleep(800) 
             if (elText) {
                 return elem.getText();
             }

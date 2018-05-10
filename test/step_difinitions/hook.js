@@ -5,9 +5,9 @@ defineSupportCode(function ({Before, setDefaultTimeout, After}) {
     setDefaultTimeout(60000);
 
     Before(function () {
-       browser.driver.manage().window().maximize();
+    browser.driver.manage().window().maximize();
     });
-
+   
     After(function (scenario) {
         let self = this;
         if (scenario.result.status !== 'passed') {

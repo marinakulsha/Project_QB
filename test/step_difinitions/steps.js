@@ -4,7 +4,13 @@ let PageFactory = require('./../support/pages/PageFactory');
 defineSupportCode(function ({Given, When, Then}) {
 
     When(/^I go to '(.+)' page$/, function (pageName) {
-        return PageFactory.getPage(pageName).goToPage()
+      return PageFactory.getPage(pageName).goToPage()
+
+    });
+
+    When(/^I get'(.+)' page to go '(.+)'$/, function (pageName,name) {
+       
+        return PageFactory.getPage(pageName).goToPage().clickButton(name)
     });
 
     When(/^I click '(.+)' element$/, function (name) {
@@ -16,10 +22,23 @@ defineSupportCode(function ({Given, When, Then}) {
         return PageFactory.currentPage.pressButton(name)
     });
 
-    When(/^I input into '(.+)' field the value '(.+)'$/, function (name, title) {
+    When(/^I select '(.+)' option from '(.+)'$/, function (oneoption, alloptions) {
+        return PageFactory.currentPage.selectDropdownElement(oneoption, alloptions) 
+    });
 
+    When(/^I scroll the page to '(.+)' element$/, function (name) {
+        return PageFactory.currentPage.scrolltoElement(name)
+    });
+
+   
+    When(/^I input into '(.+)' field the value '(.+)'$/, function (name, title) {
         return PageFactory.currentPage.inputValue(name, title)
     });
+
+    When (/^I go to '(.+)' frame$/, function (name) {
+        return PageFactory.currentPage.goToFrame(name)
+    });
+
 
     Then (/^I should get '(.+)' title$/, function (name) {
         return PageFactory.currentPage.getPageTitle(name)
@@ -30,14 +49,8 @@ defineSupportCode(function ({Given, When, Then}) {
             });
     });
 
-    When(/^I scroll the page to '(.+)' element$/, function (name) {
-
-        return PageFactory.currentPage.scrolltoElement(name)
-    });
-
-
+   
     Then(/^I should see '(.+)' element on page$/, function (name) {
-
         return PageFactory.currentPage.elementVisibility(name)
             .then(
                 (result) => {
