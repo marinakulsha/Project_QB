@@ -25,12 +25,12 @@ Items.prototype.data = {
     },
 
     'title_manage_database_items': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-item-center/div/qb-table/div[2]/div/div/div[1]/span')),
+        selector: element.all(by.xpath('.//div[@class="page-title-dialog"]')),
         index: 0
     },
 
     'add_btn': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-item-center/div/qb-table/div[2]/div/div/div[3]/button[1]')),
+        selector: element.all(by.xpath('.//button[@class="mat-raised-button ng-star-inserted"]')),
         index: 0
     },
 
@@ -40,12 +40,12 @@ Items.prototype.data = {
     },
 
     'new_item': {
-        selector: element.all(by.xpath(".//input[@placeholder='New Part Number (Replacement)']")),
+        selector: element.all(by.xpath(".//input[@placeholder='New Part Number']")),
         index: 0
     },
 
     'select_dropdown': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-database-item-editor/main/form/div[2]/section[1]/div[1]/mat-form-field/div')),
+        selector: element.all(by.xpath(".//mat-select[@placeholder='Select Product Code']")),
         index: 0
     },
 
@@ -141,18 +141,18 @@ Items.prototype.data = {
     },
 
     'part_dropdown_PC': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-item-center/div/qb-table/div[1]/div[1]/qb-filter/div/div[2]/div[2]/qb-combo-editor/section/section/mat-form-field/div/div[1]/div')),
-        index: 0
+        selector: element.all(by.xpath('.//div[@class="mat-select-trigger"]')),
+        index: 1
     },
 
     'added_item': {
-        selector: element.all(by.xpath('.//span[contains(text(), "name_part_edit")]')),
+        selector: element.all(by.xpath('.//span[contains(text(), "name_part")]')),
         index: 0
     },
   
     'obsolete_btn': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-item-center/div/qb-table/div[2]/div/div/div[3]/button[6]')),
-        index: 0
+        selector: element.all(by.xpath('.//button[@class= "mat-raised-button ng-star-inserted"]')),
+        index: 4
     },
 
     'title_conf_delete': {
@@ -166,12 +166,12 @@ Items.prototype.data = {
     },
 
     'clear_filter': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-item-center/div/qb-table/div[1]/div[1]/qb-filter/div/div[1]/button')),
+        selector: element.all(by.xpath('.//button[@class="clear__filters mat-button ng-star-inserted"]')),
         index: 0
     },
 
     'item_type': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-item-center/div/qb-table/div[1]/div[1]/qb-filter/div/div[2]/div[1]/qb-combo-editor/section/section/mat-form-field')),
+        selector: element.all(by.xpath('.//mat-select[@aria-label="Item type"]')),
         index: 0
     },
 
@@ -187,12 +187,12 @@ Items.prototype.data = {
     },
    
     'new_acc_input': {
-        selector: element.all(by.xpath(".//input[@placeholder='New Accessory (Replacement)']")),
+        selector: element.all(by.xpath(".//input[@placeholder='New Accessory']")),
         index: 0
     },
    
     'select_PC_dropdown': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-database-item-editor/main/form/div[2]/section[1]/div[1]/qb-select-all/div/mat-form-field/div/div[1]/div')),
+        selector: element.all(by.xpath('//*[@aria-label="Select..."]')),
         index: 0
     },
 
@@ -228,7 +228,7 @@ Items.prototype.data = {
     },
 
     'pricepage_select': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-database-item-editor/main/form/div[2]/section[1]/div[2]/mat-form-field')),
+        selector: element.all(by.xpath('.//mat-select[@aria-label="Select"]')),
         index: 0
     },
 
@@ -299,7 +299,7 @@ Items.prototype.data = {
     },
 
     'acc_dropdown_PC': {
-        selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-item-center/div/qb-table/div[1]/div[1]/qb-filter/div/div[2]/div[3]/qb-checkbox-editor/section/div/qb-select-all/div/mat-form-field')),
+        selector: element.all(by.xpath('.//mat-select[@aria-label="Product Codes"]')),
         index: 0
     },
 
@@ -364,88 +364,90 @@ Items.prototype.data = {
     index: 0
    },
 
-   'sell_prices': {
-    selector: element.all(by.xpath('')),
-    index: 0
-   },
-      
    'select_bucket_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//mat-select[@placeholder="Select Bucket"]')),
     index: 0
    },
 
    'bucket_1': {
-    selector: element.all(by.xpath('')),
-    index: 0
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_1'
    },
 
    'select_allbuckets': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.className('mat-select-content ng-trigger ng-trigger-fadeInContent')),
     index: 0
    },
 
    'level1_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//input[@placeholder="Level 1"]')),
     index: 0
    },
 
    'level2_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//input[@placeholder="Level 2"]')),
     index: 0
    },
 
    'level3_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//input[@placeholder="Level 3"]')),
     index: 0
    },
 
    'EndUserPrice_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//input[@placeholder="End User Price"]')),
     index: 0
    },
 
    'listprice_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//input[@placeholder="List Price"]')),
     index: 0
    },
 
    'commission_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//input[@placeholder="Commission"]')),
     index: 0
    },
+ 
 
-   'update_cost_edit': {
-    selector: element.all(by.xpath('')),
+   'added_item_edit': {
+    selector: element.all(by.xpath('.//span[contains(text(), "name_part_edit")]')),
     index: 0
+},
+
+  'all_descr_edit': {
+    selector: element.all(by.xpath('.//button[@class="mat-raised-button ng-star-inserted"]')),
+    index: 3
    },
 
-   'all_descr_edit': {
-    selector: element.all(by.xpath('')),
+   'edit_item_description': {
+    selector: element.all(by.xpath('.//h1[@class="page-title-dialog mat-dialog-title"]')),
     index: 0
    },
 
    'basedescript_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//textarea[@formcontrolname="baseDescription"]')),
     index: 0
    },
 
    'description1_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//textarea[@formcontrolname="subDescription1"]')),
     index: 0
    },
 
    'description2_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//textarea[@formcontrolname="subDescription2"]')),
     index: 0
    },
 
    'salesorderdescr_edit': {
-    selector: element.all(by.xpath('')),
+    selector: element.all(by.xpath('.//textarea[@formcontrolname="salesOrderDescription"]')),
     index: 0
    },
 
-   'update_description_edit': {
-    selector: element.all(by.xpath('')),
+   'updatedescr_btn_edit': {
+    selector: element.all(by.xpath('.//button[@class="mat-button mat-primary"]')),
     index: 0
    },
 
@@ -454,32 +456,86 @@ Items.prototype.data = {
     index: 0
    },
 
-   '': {
-    selector: element.all(by.xpath('')),
+   'edit_item_pricing': {
+    selector: element.all(by.xpath('.//h1[@class="page-title-dialog mat-dialog-title"]')),
     index: 0
    },
 
-   '': {
-    selector: element.all(by.xpath('')),
+   'title_completed_edit': {
+    selector: element.all(by.xpath('.//h1[@class="page-title-dialog mat-dialog-title"]')),
     index: 0
    },
 
-'': {
-    selector: element.all(by.xpath('')),
+'compl_OK_btn_edit': {
+    selector: element.all(by.xpath('.//button[@class="mat-button mat-primary ng-star-inserted"]')),
     index: 0
    },
 
-   '': {
-    selector: element.all(by.xpath('')),
+   'bucket_2': {
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_2'
+   },
+
+   'bucket_3': {
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_3'
+   },
+  'bucket_4': {
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_4'
+   },
+
+   'bucket_5': {
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_5'
+   },
+
+   'bucket_6': {
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_6'
+   },
+
+   'bucket_7': {
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_7'
+   },
+
+   'bucket_8': {
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_8'
+   },
+
+   'bucket_9': {
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_9'
+   },
+
+   'bucket_10': {
+    selector: by.tagName('mat-option'),
+    index: 0,
+    elName: 'Bucket_10'
+   },
+
+   'add_btn_1': {
+    selector: element.all(by.xpath('//*[@id="layout__content"]/perfect-scrollbar/div/div[1]/qb-admin/qb-item-manager/qb-item-center/div/qb-table/div[2]/div/div/div[3]/button[1]')),
     index: 0
    },
 
-   '': {
-    selector: element.all(by.xpath('')),
+   'item_type_aft_add': {
+    selector: element.all(by.xpath('.//mat-select[@aria-label="Item type"]')),
     index: 0
    },
-   '': {
-    selector: element.all(by.xpath('')),
+
+   'title_conf_delete_edit': {
+    selector: element.all(by.xpath('.//h1[@class="page-title-dialog mat-dialog-title"]')),
     index: 0
    },
 

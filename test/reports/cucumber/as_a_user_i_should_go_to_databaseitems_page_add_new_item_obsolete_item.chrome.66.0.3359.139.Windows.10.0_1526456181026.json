@@ -1,0 +1,3005 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "As a User I should go to 'databaseitems' page, add new item, obsolete item",
+    "line": 1,
+    "id": "as-a-user-i-should-go-to-'databaseitems'-page,-add-new-item,-obsolete-item",
+    "tags": [],
+    "uri": "test\\features\\Database_items.feature",
+    "elements": [
+      {
+        "id": "as-a-user-i-should-go-to-'databaseitems'-page,-add-new-item,-obsolete-item;i-should-go-to-databaseitems-page,-add-new-part-item,-delete-this-item,-add-new-accessory,-delete-new-accessory",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I Should go to Databaseitems page, add new Part item, delete this item, add new Accessory, delete new Accessory",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "test\\step_difinitions\\hook.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I go to 'login' page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2336
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I input into 'username' field the value 'marina'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I input into 'password' field the value 'marina1!'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 279
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click 'login_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see 'title_product_activity' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5630
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click 'setup_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3729
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I go to 'items' page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2284
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click 'database_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3834
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click 'add_btn_1' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3862
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see 'title_add_item' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I input into 'new_item' field the value 'name_part'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click 'select_dropdown' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3663
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I select 'select_option' option from 'select_alloptions'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 742
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I input into 'base_description' field the value 'test1'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I input into 'description_1' field the value 'test1'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I input into 'description_2' field the value 'test1'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I input into 'salesorder_description' field the value 'test1'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I input into 'list_price' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I input into 'end_user_price' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I input into 'level_3' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I input into 'level_2' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I input into 'level_1' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I input into 'commission' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I input into 'unit_cost' field the value '55.5'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 279
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I click 'save_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3717
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I should see 'title_completed' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I click 'compl_OK_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3657
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I should see 'title_confirmation' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 454
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I click 'conf_No_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3659
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 716
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I click 'part_dropdown_PC' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3754
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I select 'select_option' option from 'select_alloptions'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should see 'added_item' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 734
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I click 'added_item' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3679
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I click 'obsolete_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3710
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should see 'title_conf_delete' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I click 'obsolete_conf_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I click 'clear_filter' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3642
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I click 'item_type' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3653
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I select 'select_type' option from 'select_alltypes'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I should see 'add_btn' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I click 'add_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "I should see 'title_add_item' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I should see 'new_acc_input' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I input into 'new_acc_input' field the value 'name_accessory'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "I click 'select_PC_dropdown' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3701
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "I select 'select_PC' option from 'select_PCs'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 677
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "I press 'ESCAPE' button",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5546
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I should see 'title_add_item' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I should see 'title_add_item' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "I click 'pricepage_select' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3657
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "I select 'select_pagesection' option from 'select_allpagesection'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I input into 'base_description_acc' field the value 'test2'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 326
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "I input into 'sub_description' field the value 'test2'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I input into 'salesorder_description_acces' field the value 'test2'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "I input into 'list_price_access' field the value '44'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 362
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I input into 'end_user_price_access' field the value '44'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "I input into 'level_3_access' field the value '44'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 280
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "I input into 'level_2_access' field the value '44'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "I input into 'level_1_access' field the value '44'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I input into 'commission_access' field the value '44'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "I input into 'unit_cost_access' field the value '44.4'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I click 'save_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3658
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "I should see 'title_completed_acc' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 339
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "I click 'compl_OK_btn_acc' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3686
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "I should see 'title_confirmation_acc' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 481
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "I click 'conf_No_btn_acc' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3675
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 655
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I click 'item_type' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3713
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "I select 'select_type' option from 'select_alltypes'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 84,
+            "name": "I click 'acc_dropdown_PC' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3955
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 85,
+            "name": "I select 'select_All' option from 'select_PC_acc_options'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 86,
+            "name": "I select 'select_acc_PC' option from 'select_PC_acc_options'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "I press 'ESCAPE' button",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5533
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 88,
+            "name": "I press 'ESCAPE' button",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5515
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "I should see 'added_access' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 90,
+            "name": "I click 'added_access' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3619
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 91,
+            "name": "I click 'obsolete_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3719
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "I should see 'title_conf_delete_acc' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 93,
+            "name": "I click 'obsolete_conf_btn_acc' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3680
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 94,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 95,
+            "name": "I click 'hello_user_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3686
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 96,
+            "name": "I click 'logout_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4470
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "I should get 'title_quote_builder' title",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "test\\step_difinitions\\hook.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-user-i-should-go-to-'databaseitems'-page,-add-new-item,-obsolete-item;i-should-go-to-databaseitems-page,-add-new-part,-edit-cost,-sell-prices,-full-description,-delete-this-part-item",
+        "keyword": "Scenario",
+        "line": 99,
+        "name": "I Should go to Databaseitems page, add new Part, edit cost, sell Prices, full description, delete this Part item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "test\\step_difinitions\\hook.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 101,
+            "name": "I go to 'login' page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 409
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 102,
+            "name": "I input into 'username' field the value 'marina'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 103,
+            "name": "I input into 'password' field the value 'marina1!'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 104,
+            "name": "I click 'login_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3740
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 105,
+            "name": "I should see 'title_product_activity' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1456
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 106,
+            "name": "I click 'setup_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4038
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 107,
+            "name": "I go to 'items' page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1588
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 108,
+            "name": "I click 'database_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3794
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 109,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 110,
+            "name": "I click 'add_btn_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4138
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 111,
+            "name": "I should see 'title_add_item' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 112,
+            "name": "I input into 'new_item' field the value 'name_part_edit'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 113,
+            "name": "I click 'select_dropdown' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3673
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 114,
+            "name": "I select 'select_option' option from 'select_alloptions'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 115,
+            "name": "I input into 'base_description' field the value 'test_edit'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 116,
+            "name": "I input into 'description_1' field the value 'test_edit'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 351
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 117,
+            "name": "I input into 'description_2' field the value 'test_edit'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 118,
+            "name": "I input into 'salesorder_description' field the value 'test_edit'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 119,
+            "name": "I input into 'list_price' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 120,
+            "name": "I input into 'end_user_price' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 121,
+            "name": "I input into 'level_3' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 122,
+            "name": "I input into 'level_2' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 123,
+            "name": "I input into 'level_1' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 124,
+            "name": "I input into 'commission' field the value '55'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 125,
+            "name": "I input into 'unit_cost' field the value '55.5'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 126,
+            "name": "I click 'save_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3687
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 127,
+            "name": "I should see 'title_completed' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 402
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 128,
+            "name": "I click 'compl_OK_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3718
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 129,
+            "name": "I should see 'title_confirmation' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 521
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 130,
+            "name": "I click 'conf_No_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3685
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 131,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 734
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 132,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 133,
+            "name": "I click 'part_dropdown_PC' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3730
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 134,
+            "name": "I select 'select_option' option from 'select_alloptions'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 569
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 135,
+            "name": "I should see 'added_item_edit' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 672
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 136,
+            "name": "I click 'added_item_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3617
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 138,
+            "name": "I click 'cost_btn' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3739
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 139,
+            "name": "I should see 'edit_item_pricing' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 140,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3788
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 141,
+            "name": "I select 'bucket_1' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 142,
+            "name": "I input into 'level1_edit' field the value '551'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 143,
+            "name": "I input into 'level2_edit' field the value '551'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 144,
+            "name": "I input into 'level3_edit' field the value '551'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 279
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 145,
+            "name": "I input into 'EndUserPrice_edit' field the value '551'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 146,
+            "name": "I input into 'listprice_edit' field the value '551'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 147,
+            "name": "I input into 'commission_edit' field the value '51.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 148,
+            "name": "I input into 'cost_price' field the value '551'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 149,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3650
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 150,
+            "name": "I select 'bucket_2' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 354
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 151,
+            "name": "I input into 'level1_edit' field the value '552'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 152,
+            "name": "I input into 'level2_edit' field the value '552'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 153,
+            "name": "I input into 'level3_edit' field the value '552'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 154,
+            "name": "I input into 'EndUserPrice_edit' field the value '552'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 255
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 155,
+            "name": "I input into 'listprice_edit' field the value '552'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 240
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 156,
+            "name": "I input into 'commission_edit' field the value '52.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 157,
+            "name": "I input into 'cost_price' field the value '552'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 158,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 159,
+            "name": "I select 'bucket_3' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 370
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 160,
+            "name": "I input into 'level1_edit' field the value '553'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 161,
+            "name": "I input into 'level2_edit' field the value '553'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 162,
+            "name": "I input into 'level3_edit' field the value '553'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 245
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 163,
+            "name": "I input into 'EndUserPrice_edit' field the value '553'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 164,
+            "name": "I input into 'listprice_edit' field the value '553'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 165,
+            "name": "I input into 'commission_edit' field the value '53.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 166,
+            "name": "I input into 'cost_price' field the value '553'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 167,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3630
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 168,
+            "name": "I select 'bucket_4' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 169,
+            "name": "I input into 'level1_edit' field the value '554'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 354
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 170,
+            "name": "I input into 'level2_edit' field the value '554'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 171,
+            "name": "I input into 'level3_edit' field the value '554'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 172,
+            "name": "I input into 'EndUserPrice_edit' field the value '554'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 173,
+            "name": "I input into 'listprice_edit' field the value '554'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 174,
+            "name": "I input into 'commission_edit' field the value '54.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 175,
+            "name": "I input into 'cost_price' field the value '554'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 176,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3654
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 177,
+            "name": "I select 'bucket_5' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 349
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 178,
+            "name": "I input into 'level1_edit' field the value '555'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 179,
+            "name": "I input into 'level2_edit' field the value '555'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 180,
+            "name": "I input into 'level3_edit' field the value '555'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 181,
+            "name": "I input into 'EndUserPrice_edit' field the value '555'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 182,
+            "name": "I input into 'listprice_edit' field the value '555'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 201
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 183,
+            "name": "I input into 'commission_edit' field the value '55.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 184,
+            "name": "I input into 'cost_price' field the value '555'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 185,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3635
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 186,
+            "name": "I select 'bucket_6' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 187,
+            "name": "I input into 'level1_edit' field the value '556'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 188,
+            "name": "I input into 'level2_edit' field the value '556'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 189,
+            "name": "I input into 'level3_edit' field the value '556'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 190,
+            "name": "I input into 'EndUserPrice_edit' field the value '556'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 191,
+            "name": "I input into 'listprice_edit' field the value '556'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 192,
+            "name": "I input into 'commission_edit' field the value '56.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 193,
+            "name": "I input into 'cost_price' field the value '556'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 245
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 194,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3689
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 195,
+            "name": "I select 'bucket_7' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 349
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 196,
+            "name": "I input into 'level1_edit' field the value '557'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 197,
+            "name": "I input into 'level2_edit' field the value '557'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 198,
+            "name": "I input into 'level3_edit' field the value '557'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 199,
+            "name": "I input into 'EndUserPrice_edit' field the value '557'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 200,
+            "name": "I input into 'listprice_edit' field the value '557'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 201,
+            "name": "I input into 'commission_edit' field the value '57.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 202,
+            "name": "I input into 'cost_price' field the value '557'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 203,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3678
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 204,
+            "name": "I select 'bucket_8' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 385
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 205,
+            "name": "I input into 'level1_edit' field the value '558'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 206,
+            "name": "I input into 'level2_edit' field the value '558'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 207,
+            "name": "I input into 'level3_edit' field the value '558'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 208,
+            "name": "I input into 'EndUserPrice_edit' field the value '558'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 209,
+            "name": "I input into 'listprice_edit' field the value '558'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 210,
+            "name": "I input into 'commission_edit' field the value '58.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 237
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 211,
+            "name": "I input into 'cost_price' field the value '558'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 212,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3621
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 213,
+            "name": "I select 'bucket_9' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 394
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 214,
+            "name": "I input into 'level1_edit' field the value '559'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 215,
+            "name": "I input into 'level2_edit' field the value '559'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 216,
+            "name": "I input into 'level3_edit' field the value '559'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 217,
+            "name": "I input into 'EndUserPrice_edit' field the value '559'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 218,
+            "name": "I input into 'listprice_edit' field the value '559'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 219,
+            "name": "I input into 'commission_edit' field the value '59.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 220,
+            "name": "I input into 'cost_price' field the value '559'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 221,
+            "name": "I click 'select_bucket_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3605
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 222,
+            "name": "I select 'bucket_10' option from 'select_allbuckets'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 223,
+            "name": "I input into 'level1_edit' field the value '560'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 224,
+            "name": "I input into 'level2_edit' field the value '560'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 225,
+            "name": "I input into 'level3_edit' field the value '560'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 210
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 226,
+            "name": "I input into 'EndUserPrice_edit' field the value '560'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 227,
+            "name": "I input into 'listprice_edit' field the value '560'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 228,
+            "name": "I input into 'commission_edit' field the value '60.00'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 229,
+            "name": "I input into 'cost_price' field the value '560'",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 230,
+            "name": "I click 'update_cost_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3656
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 231,
+            "name": "I should see 'title_completed_edit' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 232,
+            "name": "I click 'compl_OK_btn_edit' element",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3839
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 233,
+            "name": "I should see 'title_manage_database_items' element on page",
+            "match": {
+              "location": "test\\step_difinitions\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "test\\step_difinitions\\hook.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-user-i-should-go-to-'databaseitems'-page,-add-new-item,-obsolete-item;i-should-go-to-databaseitems-page,-add-new-accessory,-edit-cost,-sell-prices,-full-description,-delete-this-accessory",
+        "keyword": "Scenario",
+        "line": 236,
+        "name": "I Should go to Databaseitems page, add new Accessory, edit cost, sell Prices, full description, delete this Accessory",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "test\\step_difinitions\\hook.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "test\\step_difinitions\\hook.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "66.0.3359.139"
+      },
+      "device": "desktop",
+      "platform": {
+        "name": "Windows",
+        "version": "10.0"
+      },
+      "app": {
+        "name": "16-05-2018 10:31:54",
+        "version": ""
+      }
+    }
+  }
+]

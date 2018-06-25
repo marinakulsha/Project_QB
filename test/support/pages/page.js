@@ -60,10 +60,11 @@ Page.prototype.inputValue = function (name, text) {
     return this.waitReady(name)
         .then((elem) => {
             input = elem;
+            browser.driver.sleep(700)
             return input.clear()
         })
         .then(() => {
-            browser.driver.sleep(100)
+            browser.driver.sleep(500)
             return input.sendKeys(text)
         });
 };
@@ -114,7 +115,7 @@ Page.prototype.elementVisibility = function (name) {
     let elText = this.data[name].elText;
     return this.waitReady(name)
         .then(function (elem) {
-            browser.driver.sleep(800) 
+            browser.driver.sleep(5000) 
             if (elText) {
                 return elem.getText();
             }
@@ -126,6 +127,8 @@ Page.prototype.elementVisibility = function (name) {
                 };
             }
         })
+
+      
     /* .catch((err) => {
          console.log(err);
          return browser.sleep(100)
